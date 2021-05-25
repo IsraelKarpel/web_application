@@ -55,7 +55,6 @@ app.post("/detect",async (req,res)=>{
         return answerString
         })();
       
-        console.log(answer_string)
         res.write(answer_string.toString())
         res.end()
     } else {
