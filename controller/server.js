@@ -25,7 +25,9 @@ app.post("/detect",async (req,res)=>{
         var check_file = req.files.check_file
         //reads the algo choice of the user
         var anomaly_chose = req.body.pick_algorithms
+        //this ts the json file
         anomalies = moudle.calculateAnomaly(right_file.data.toString(), check_file.data.toString(), anomaly_chose)
+        //now we want to change it to format that will present to the client
         colunm_names = moudle.getColumnName(right_file.data.toString())
         answer_string = await (async function() {    
             answerString = ""
