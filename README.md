@@ -19,5 +19,8 @@ In order to work on the app, some moudels need to be insalled:
 * npm install smallest-enclosing-circle, whih help us compute the smallest circle for our hybrid algorithm.
 
 ## basic UML
+![uml](https://github.com/IsraelKarpel/web_application/blob/25ab4332b4d46096ff84424421c2ab84bc6698dc/UML.png)
 
-## How to use video
+## How to use
+Run server.js inside the controller directory, then you open localhost:8080 in your browser.
+you can watch [here](https://youtu.be/713nmPH1TAs) example of basic use of this app
